@@ -19,6 +19,12 @@ Some great info can be found on this page https://forums.nesdev.org/viewtopic.ph
 As far as modifying games go not everyone has the same approach, but since my main goal here is to improve how comfortable I am with assembly,
 I will most likely be modifying the disassembly directly
 
+After making the changes you then create an ips file that can be used to patch the rom
+it appears the main way to do this is simply to feed the unmodified and modified files to lunar ips and it will do the rest
+Lunar IPS: https://www.romhacking.net/utilities/240/
+
+Lunar is also the main tool used to apply patches to roms
+
 Unfortunately I was not able to find any kind of list of seeds of professional matches, I could likely get some of them by asking around,
 but to my knowledge I'm not even sure if seeds are generally made public or tracked at all, I believe it is possible to reverse engineer 
 a seed by going through a peice set, but I have no idea how to do so and it would likely be a painfully time consuming and tedious task. 
