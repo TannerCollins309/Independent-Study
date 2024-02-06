@@ -1,0 +1,24 @@
+Jan 31, 2024 - Feb, 6, 2024
+
+Tetris gym, the rom that I would be editing to complete the current idea, is based on a disassembly descended from TAUS, which is a tetris rom 
+primarily to add more useful statistics in game, TAUS uses flips and cc65 to build their rom as detailed in the "How to Build" section
+at https://github.com/ejona86/taus
+
+The first ways I found to disasseble an nes ROM were to use the Ghidra decompiler plugin found at https://github.com/ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin
+or to do so directly with da65, I will most likely use the latter option but we will see what happens as we move along, at this point I 
+will definitely be doing something with the nes, but what exactly is yet to be determined
+
+the da65 users guide https://cc65.github.io/doc/da65.html#s4
+there is no proper tutorial on using it but here are some useful links that I have found:
+https://forums.nesdev.org/viewtopic.php?t=21342 (forum crawling already, always a good sign)
+https://www.lemon64.com/forum/viewtopic.php?t=69582
+
+Some great info can be found on this page https://forums.nesdev.org/viewtopic.php?p=241882&sid=6195c5ef7d8ef9cd3a38517de9f4d8a0#p241882
+As far as modifying games go not everyone has the same approach, but since my main goal here is to improve how comfortable I am with assembly,
+I will most likely be modifying the disassembly directly
+
+Unfortunately I was not able to find any kind of list of seeds of professional matches, I could likely get some of them by asking around,
+but to my knowledge I'm not even sure if seeds are generally made public or tracked at all, I believe it is possible to reverse engineer 
+a seed by going through a peice set, but I have no idea how to do so and it would likely be a painfully time consuming and tedious task. 
+With a project like this I be able to get some other community members on board to help with things, but given the timeframe for the 
+independant study I would likely have little to nothing to actually show off by the time I'm supposed to be done
