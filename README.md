@@ -3,7 +3,7 @@ Independent research project, single credit hour, may turn into a long term proj
 
 This file is to keep track of research done throughout the project and have timestamps for when it was done
 
-# Jan 31, 2024 - Feb, 6, 2024
+# Jan 31 - Feb, 6, 2024
 
 Tetris gym, the rom that I would be editing to complete the current idea, is based on a disassembly descended from TAUS, which is a tetris rom 
 primarily to add more useful statistics in game, TAUS uses flips and cc65 to build their rom as detailed in the "How to Build" section
@@ -34,7 +34,7 @@ a seed by going through a peice set, but I have no idea how to do so and it woul
 With a project like this I be able to get some other community members on board to help with things, but given the timeframe for the 
 independant study I would likely have little to nothing to actually show off by the time I'm supposed to be done
 
-# Feb 12, 2023 update
+# Feb 7 - Feb 12, 2024 update
 
 For patching I have ultimately ended up using floating ips, or flips, which is a newer ips program built as a replacement for 
 lunar ips, the one that i was using before, the romhacking.net page for it can be found here, https://www.romhacking.net/utilities/1040/
