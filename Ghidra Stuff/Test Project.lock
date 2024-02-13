@@ -1,9 +1,0 @@
-#Ghidra Lock File
-#Mon Feb 12 21:50:06 CST 2024
-OS\ Name=Linux
-OS\ Version=6.0.12-76060012-generic
-Username=tannercollins
-Hostname=pop-os
-<META>\ Supports\ File\ Channel\ Locking=Channel Lock
-OS\ Architecture=amd64
-Timestamp=2/12/24, 9\:50 PM
