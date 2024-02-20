@@ -1,6 +1,7 @@
 This file so far is mostly just notes from the easy 6502 page condensed for quick referance from me
-numbers
-  A full list of the 6502 instruction set can be found here: http://www.6502.org/tutorials/6502opcodes.html
+I am already familiar-ish with assembly, but this is a different version and I definitely need practice
+# syntax
+A full list of the 6502 instruction set can be found here: http://www.6502.org/tutorials/6502opcodes.html
   $ signifies hex
   # signifies literals
   anything else is a memory location
@@ -24,5 +25,6 @@ numbers
   B stands for branch, and there are a variety of flags that we can check with this instruction, in this case, we just compared two values, so the z flag is set, the two main branch instructions that can be used her are,
     BNE, which stands for branch on not equal,
     BEQ, which stands for branch on equal, 
-    the syntax to use these instructions is BXX label, where if the condition is true, you will jump to the label specified
+    the syntax to use these instructions is BXX label, where if the condition is true, you will jump to the label specified,
+    there is no BRA command in 6502 assembly, which would stand for BRanch Always, but if you know what a particular condition will be at this point in the code, it isn't particularly necessary
     
