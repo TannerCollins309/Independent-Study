@@ -1,17 +1,28 @@
 This file so far is mostly just notes from the easy 6502 page condensed for quick referance from me
 numbers
+  A full list of the 6502 instruction set can be found here: http://www.6502.org/tutorials/6502opcodes.html
   $ signifies hex
   # signifies literals
   anything else is a memory location
 
   for example
   L stands for load
-  LDA #$01 loads the hex value 01 into register A
-  LDA &01 loads the value from memory location hex 01 into register A
+  LDA #$01 loads the $01 into register A
+  LDA &01 loads the value from memory location $01 into register A
 
   T stands for transfer, TAX would transfer the value in the A register to X
   IN stands for increment, INX then, increments the value in the register X
-  AD stands for Add, so ADX #$01 would add the hex value 01 to the register X
+  ADC is the addition command, it adds the value passed to it to the A register, in the case that the answer is larger than a byte, the carry flag is set, just as in other versions of assembly
   BRK (break) ends the program
 
+  SP points to the stack pointer, which is decremented when something is pushed to the stack, and incremented when something is popped
+  PC is the program counter, and it keeps track of where in the executing program we currently are, it starts at the first memory location of the block we are using
 
+  ST stands for store, STA $01 stores the value in A in the memory location $01  
+  CP stands for copy, CPX #$01 compares the value in X to $01, if they are equal, we set the z flag to 1, else, it is set to 0
+
+  B stands for branch, and there are a variety of flags that we can check with this instruction, in this case, we just compared two values, so the z flag is set, the two main branch instructions that can be used her are,
+    BNE, which stands for branch on not equal,
+    BEQ, which stands for branch on equal, 
+    the syntax to use these instructions is BXX label, where if the condition is true, you will jump to the label specified
+    
