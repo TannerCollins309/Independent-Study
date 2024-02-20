@@ -1,0 +1,17 @@
+This file so far is mostly just notes from the easy 6502 page condensed for quick referance from me
+numbers
+  $ signifies hex
+  # signifies literals
+  anything else is a memory location
+
+  for example
+  L stands for load
+  LDA #$01 loads the hex value 01 into register A
+  LDA &01 loads the value from memory location hex 01 into register A
+
+  T stands for transfer, TAX would transfer the value in the A register to X
+  IN stands for increment, INX then, increments the value in the register X
+  AD stands for Add, so ADX #$01 would add the hex value 01 to the register X
+  BRK (break) ends the program
+
+
