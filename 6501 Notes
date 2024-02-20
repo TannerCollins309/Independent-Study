@@ -19,7 +19,7 @@ numbers
   PC is the program counter, and it keeps track of where in the executing program we currently are, it starts at the first memory location of the block we are using
 
   ST stands for store, STA $01 stores the value in A in the memory location $01  
-  CP stands for copy, CPX #$01 compares the value in X to $01, if they are equal, we set the z flag to 1, else, it is set to 0
+  CP stands for compare, CPX #$01 compares the value in X to $01, if they are equal, we set the z flag to 1, else, it is set to 0
 
   B stands for branch, and there are a variety of flags that we can check with this instruction, in this case, we just compared two values, so the z flag is set, the two main branch instructions that can be used her are,
     BNE, which stands for branch on not equal,
