@@ -1,6 +1,7 @@
 This file so far is mostly just notes from the easy 6502 page condensed for quick referance from me
-I am already familiar-ish with assembly, but this is a different version and I definitely need practice
-# syntax
+I am already familiar-ish with assembly, but this is a different version and I definitely need practice, it's kinda the point of this project in the first place
+
+Syntax
 A full list of the 6502 instruction set can be found here: http://www.6502.org/tutorials/6502opcodes.html
   $ signifies hex
   # signifies literals
