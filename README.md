@@ -56,4 +56,7 @@ http://www.6502.org/tutorials/
 
 I'm also sure the ghidra tool could be useful in a number of ways, but while I have it working and have poked around a bit, I still find myself completely lost in ghidra and have even less of an idea of whats going on
 
+# Feb 13 - Feb 20 update
+This week has not been particularly productive as I have been quite busy, it's just been some reading through the documentation that I have already found
 
+I have added a 6502 notes file for myself so that I can take notes on syntax and things to easily look back at
