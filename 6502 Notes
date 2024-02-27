@@ -28,4 +28,6 @@ A full list of the 6502 instruction set can be found here: http://www.6502.org/t
     BEQ, which stands for branch on equal, 
     the syntax to use these instructions is BXX label, where if the condition is true, you will jump to the label specified,
     there is no BRA command in 6502 assembly, which would stand for BRanch Always, but if you know what a particular condition will be at this point in the code, it isn't particularly necessary
-    
+
+  JSR stands for Jump SubRoutine, this pushes the address of the next instruction to the stack and jumps to the target address
+  PH and PL are for PusH and PuLl respectively
