@@ -60,3 +60,12 @@ I'm also sure the ghidra tool could be useful in a number of ways, but while I h
 This week has not been particularly productive as I have been quite busy, it's just been some reading through the documentation that I have already found
 
 I have added a 6502 notes file for myself so that I can take notes on syntax and things to easily look back at
+
+# Feb 21 - Feb 27 update
+This week has once again been a lot of familiarization with assembly and the disassemblies that I have access to, but there has been some more major discoveries than last week
+
+The largest thing that has happened this week is my discovery of the Mesen emulator, which supports various types of games, the nes included, the thing that sets Mesen apart from a more standard emulator is that it includes some really neat developer tools, there is a debugger and assembler, which provide partial disassemblies of the rom that you have open, not only that, but it has a database of known rom files that it can pull header names and comments from, so you can look at what some of the variables do without having to look through and figure it out yourself. 
+
+There are also a variety of other tools available so that you can watch exactly whats happening in real time as the game is running, including an event viewer, memory viewer, register viewer, and trace logger, to name a few. It has been an awesome tool for helping me actually understand what it happening within the game as it is running, and I'm sure it would be even more useful if I had any idea what I was actually doing.
+
+The other thing that I found was this github page https://github.com/CelestialAmber/TetrisNESDisasm/tree/master, which provides a usable disassembly to look at, of course, it's in a very different form from what I'm working with as the people who made it have infinitely more experience in the matter than I do, but that's exactly why it has been such a big help to look at.
