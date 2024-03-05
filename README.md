@@ -69,3 +69,18 @@ The largest thing that has happened this week is my discovery of the Mesen emula
 There are also a variety of other tools available so that you can watch exactly whats happening in real time as the game is running, including an event viewer, memory viewer, register viewer, and trace logger, to name a few. It has been an awesome tool for helping me actually understand what it happening within the game as it is running, and I'm sure it would be even more useful if I had any idea what I was actually doing.
 
 The other thing that I found was this github page https://github.com/CelestialAmber/TetrisNESDisasm/tree/master, which provides a usable disassembly to look at, of course, it's in a very different form from what I'm working with as the people who made it have infinitely more experience in the matter than I do, but that's exactly why it has been such a big help to look at.
+
+# Feb 28 - March 5 update
+I started the week by looking at ghidra again for about an hour, I feel like I gained as little as I did last time, I went through some online resources such as the ghidra class on the official github, but I still feel lost so I decided to pivot a bit since I feel like I'm running into a bit of a wall
+
+Now that I have a better understanding of what it is that the nes is doing and how it works, as well as 6502 assembly and architecture in general, I've looked more into the aspects of actually modifying games, one resource I've had on the radar for awhile is this youtube video: https://www.youtube.com/watch?v=alg6hS70h8E
+
+which also links to a variety of other resources that I have seen but not used so far, 
+
+A general resources guide: https://emulation.gametechwiki.com/index.php/ROM_hacking_resources
+
+the fceux emulator has a lot of similar tools to mesen, right now I'm not familiar enough with the 2 of them and the process here to say which is better or worse, but fceux feels more beginner friendly and has less sensory overload in any given tool or tab: https://github.com/TASVideos/fceux
+
+if I were to edit any kind of tile is seems like tile molester is essentially the only option that I've found: https://www.romhacking.net/utilities/109/
+
+There's a variety of hex editors, I've used gHex in the past, the video recommends windhex, and the artivle recommends XVI32 and translhexation, I don't know much about the differences between them at this point, we will figure out more about that in the future I'm sure
