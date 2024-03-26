@@ -83,4 +83,16 @@ the fceux emulator has a lot of similar tools to mesen, right now I'm not famili
 
 if I were to edit any kind of tile is seems like tile molester is essentially the only option that I've found: https://www.romhacking.net/utilities/109/
 
-There's a variety of hex editors, I've used gHex in the past, the video recommends windhex, and the artivle recommends XVI32 and translhexation, I don't know much about the differences between them at this point, we will figure out more about that in the future I'm sure
+There's a variety of hex editors, I've used gHex in the past, the video recommends windhex, and the article recommends XVI32 and translhexation, I don't know much about the differences between them at this point, we will figure out more about that in the future I'm sure
+
+# March 6 - March 18
+With spring break there wasn't a whole lot accomplished in this period, I worked on familiarizing myself with some of the software that I discovered last time and watching through some tutorials on youtube, nothing really major to report.
+
+# March 19 - March 26
+Coming out of spring break and into midterms has made finding up until this weekend very hard, I worked on it for about an hour on friday and an hour yesterday, as well as for about the last hour or so
+
+So far for hex viewing I've just been using Ghex, since I'm doing everything on my laptop on linux, I'm not sure how windhex will run through wine and haven't bothered to try, I haven't really seen any reason why I should use one over the others, though since I haven't dove too far in yet I may find out about some feature in the future.
+
+I have also downloaded and played around with Tile Molester a bit, Like many of these tools to work with old games, the final executable is simply a jar, so no problems with using it on linux, or anything else for that matter. Since I don't have anything in particular in mind that needs to be done yet, it's more been just to see what the software is like since it seems to be more or less unavoidable. Overall the program is really simple and doesn't really need to be anything else, you select a size and then color pixels, nothing too groundbreaking here.
+
+Apart from this I have still had difficulties getting anything to recompile but feel like I've gotten a little closer, Ghidra seems a little less angry at me as does ca65, so I think I've made some kind of progress, but I make no promises.
